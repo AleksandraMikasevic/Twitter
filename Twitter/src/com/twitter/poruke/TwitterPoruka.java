@@ -38,7 +38,7 @@ this.korisnik = korisnik;
  * @return poruka, sadrzaj poruke
  */
 public String getPoruka() {
-return "poruka";
+return poruka;
 }
 /**
  * Postavlja vrednost atributa poruka na unetu vrednost.
@@ -46,7 +46,7 @@ return "poruka";
  * @throws java.lang.RuntimeException ako je uneta vrednost <i>null</i> ili ako je duzina unetog teksa <i>veca od 140</i>.
  */
 public void setPoruka(String poruka) {
-if (poruka==null || this.poruka.length()>140)
+if (poruka==null || poruka.length()>140)
 throw new RuntimeException(
 "Poruka mora biti uneta i mora imati najvise 140 znakova");
 this.poruka = poruka;
