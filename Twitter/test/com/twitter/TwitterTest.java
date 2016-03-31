@@ -10,7 +10,7 @@ import org.junit.Test;
 
 import com.twitter.poruke.TwitterPoruka;
 
-public class TestoviTwitter {
+public class TwitterTest {
 	private Twitter twitter;
 	@Before
 	public void setUp() throws Exception {

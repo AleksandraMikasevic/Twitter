@@ -13,7 +13,7 @@ import org.junit.Test;
  * @author User
  *
  */
-public class Testovi {
+public class TwitterPorukaTest {
 	private TwitterPoruka poruka;
 
 	/**
